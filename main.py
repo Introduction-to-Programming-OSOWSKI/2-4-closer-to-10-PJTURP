@@ -1,9 +1,13 @@
-
+#def close10
 def close10(x,y):
-    if abs(x)>abs(y):
-        return True
+    if abs(x-10)<abs(y-10):
+        return x 
 
-    elif abs(x)==abs(y):
-         return "0"
+    elif abs(x-10)==abs(y-10):
+         return 0
 
-    else abs
+    else:
+        return y
+
+#run
+print(close10(8,11))
